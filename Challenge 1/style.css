@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow:
+    -2px  0   0   0   #333,  /* Sol */
+     0   -2px 0   0   #333,  /* Üst */
+     10px  0   0   0   #333,  /* Sağ */
+     0    10px 0   0   #333;  /* Alt */
+
+.card-image{
+    padding: 14px;
+}
+
+.card-image img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.card-content{
+    padding: 30px;
+}
+.tag{
+    display: inline-block;
+    color: hsl(0, 0%, 7%);
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold ;
+}
+.date{
+    font-weight: 600;
+    margin: 10px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: auto;
+}
+.description{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.author img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.author-name{
+    font-weight: bold;
+
+}
